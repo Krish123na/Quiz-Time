@@ -31,7 +31,7 @@ A modern, responsive quiz web app built with HTML, CSS, and JavaScript to help y
 
 ## 📸 Demo
 
-[Live Preview on Netlify](https://your-netlify-link.netlify.app)
+[Live Preview on Netlify](https://quiz-time-prod.netlify.app/)
 
 ---
 
