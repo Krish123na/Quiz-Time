@@ -220,7 +220,6 @@ function loadSavedState() {
   if (!isNaN(savedScore))  score = savedScore;
    else score = 0;
 
-  // highScoreDiv.innerText = hs ? `Highest Score: ${hs}/${questions.length}` : '';
 }
 function showHighScoreOnHome() {
   const hs = localStorage.getItem('highScore');
