@@ -2,10 +2,6 @@
 
 A modern, responsive quiz web app built with HTML, CSS, and JavaScript to help you prepare for frontend development interviews.
 
-![screenshot](/assets/images/Home-page.png)
-![screenshot](/assets/images/0-5sec-page.png)
-![screenshot](/assets/images/result-page.png)
-
 ---
 
 ## 📌 Features
@@ -35,10 +31,8 @@ A modern, responsive quiz web app built with HTML, CSS, and JavaScript to help y
 
 ---
 
-## 🛠️ Setup Instructions
+![screenshot](/assets/images/Home-page.png)
+![screenshot](/assets/images/0-5sec-page.png)
+![screenshot](/assets/images/result-page.png)
 
-1. **Clone the repository**
 
-```bash
-git clone https://github.com/your-username/quiz-app.git
-cd quiz-app
