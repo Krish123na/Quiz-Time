@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiz Time</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HOME -->
+  <div class="screen" id="home-screen">
+    <div class="home-container">
+     <img src="assets/images/quiz-banner.svg" class="banner" alt="Quiz Time Banner">
+     <p id="tagline">🚀 Ready to Conquer Frontend Interview Questions? Let’s Quiz!</p>
+
+     <button id="start-btn">Start Now >>></button> 
+     <div id="high-score"></div>
+    </div>
+  </div>
+
+  <!-- QUIZ -->
+  <div class="screen" id="quiz-screen">
+    <header>
+      <img src="assets/images/quiz-banner.svg" class="banner small">
+      <img src="assets/icons/sound-on.svg" id="sound-toggle" class="icon">
+    </header>
+    <div id="attempt-qsn">
+      <span id="quiz-progress">1/25</span>
+    </div>
+    <div id="question-text"></div>
+    <p id="timeout-message" class="hidden">⏰ Time's up!</p>
+    <div id="timer-box">
+      <span id="timer">00:30</span>
+    </div>
+    <div class="options-container">
+      <div id="options"></div>
+    </div>
+    <button id="next-btn">Next ></button>
+  </div>
+
+   <!-- RESULT  -->
+  <div class="screen" id="result-screen">
+    <img src="assets/images/quiz-banner.svg" class="banner small" alt="Result">
+    <p class="result-text">Result</p>
+    <div id="result-bar">
+       <div id="bar-fill"></div>
+    </div>
+    <p class="correct-qsns">20/25</p>
+    <p id="result-message"></p>
+    <button id="retry-btn"><<< Retry</button>
+    <button id="share-btn">📤 Share your score</button>
+  </div>
+
+
+  <script src="data/questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+ <!-- <body>
+  HOME SCREEN
+  <div class="screen" id="home-screen">
+    <h1>Quiz Time</h1>
+    <button id="start-btn">Start Now</button>
+    <div id="high-score"></div>
+  </div>
+
+  QUIZ SCREEN
+  <div class="screen" id="quiz-screen">
+    <header>
+      <h2>Quiz Time</h2>
+      <div id="sound-toggle">🔊</div>
+    </header>
+    <div id="quiz-progress">1/25</div>
+    <div id="question-text">Question goes here</div>
+    <div id="timer">00:30</div>
+    <div id="options"></div>
+    <button id="next-btn">Next</button>
+  </div>
+
+  RESULT SCREEN
+  <div class="screen" id="result-screen">
+    <h2>Quiz Time Result</h2>
+    <div id="result-bar">
+      <div id="bar-fill"></div>
+    </div>
+    <p id="result-message"></p>
+    <button id="retry-btn">Retry</button>
+  </div>
+
+  <script src="data/questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html> -->
+
+// Figma Design Link 
+https://www.figma.com/file/BzNsm1i2Mn2vhhx3iuFvrg/Quiz-Time
