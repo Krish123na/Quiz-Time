@@ -1,4 +1,4 @@
-body {
+ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
@@ -21,11 +21,10 @@ body {
   min-height: 100vh;
   box-sizing: border-box;
 }
-
 .screen.active {
   display: block;
- /* background-color: #CCE2C2; */
 }
+
 #tagline {
   font-size: 1.3rem;
   font-weight: 600;
@@ -40,7 +39,6 @@ body {
 }
 
 #quiz-screen{
-  /* margin-inline: 100px; */
   padding: 28px 130px;
 }
 .home-container {
@@ -58,13 +56,12 @@ body {
  .banner {
   width: 40%;
   max-width: 800px;
-  margin: 10px auto 0px auto;
-  /* padding: 0 10px; */
+  margin: 10px auto 0;
 }
 
 .banner.small {
    width: 15%; 
-   margin: 0px;
+   margin: 0;
   }
  #quiz-progress {
    text-align: right;
@@ -80,33 +77,37 @@ body {
 }
 #question-text{
   font-family: 'Poppins', sans-serif;
-  margin: 16px 0px;
+  margin: 16px 0px 8px;
   padding: 20px;
   font-size: 24px;
   font-weight: 700;
   border-radius: 12px;
-  box-shadow: 1px 0px 0px 4px #d4d1d17c;
+  box-shadow: 1px 0px 4px #d4d1d17c;
   background-color: white;
   text-align: left;
+}
+#timer-box {
+  text-align: right;
+  margin-top: 12px;
 }
 .options-container{
   border: 3px solid #d3d0d0;
   border-radius: 12px;
   background: white;
   box-shadow: 1px 0px 0px 2px #d4d1d17c;
-  margin: 16px auto;
+  margin: 12px auto;
 }
 #options button {
   position: relative;
   display: block;
   margin: 0px 0px 20px 0px;
   width: 100%;
-  border: 3px solid #D9D9D9;
+  border: 2px solid #D9D9D9;
   border-radius: 12px;
   background-color: rgba(223, 213, 213, 0.5);
   box-shadow: 1px 0px 0px 1px #F5F5F57C;
   cursor: pointer;
-  padding: 16px;
+  padding: 12px;
    text-align:left;
    color: black;
    font-size: 24px;
@@ -192,8 +193,7 @@ header{
 }
 .status-bar { 
   display:flex; 
-  justify-content: 
-  space-between; 
+  justify-content: space-between; 
   margin: 10px; 
 }
 #timer { 
@@ -204,10 +204,7 @@ header{
   border-radius:5px; 
   color:white; 
   text-align: right;
-  margin: 16px auto;
-}
-#timer-box {
-  text-align: right;
+  margin: 8px auto;
 }
 .correct::after { 
   content:url('../assets/icons/check.svg'); 
@@ -215,7 +212,6 @@ header{
   right:25px; 
   top:50%; 
   transform:translateY(-45%); 
-  /* background-color: red; */
 }
 .incorrect::after { 
   content:url('../assets/icons/cross.svg'); 
@@ -244,8 +240,9 @@ header{
 .hidden, #high-score {
   display: none;
 }
+
 #high-score {
-  display: none; /* will be set to block via JS if a high score exists */
+  display: none; 
   margin-top: 20px;
   padding: 12px 20px;
   font-size: 24px;
@@ -296,6 +293,7 @@ header{
   #options button {
     font-size: 16px;
     margin: 16px auto;
+    padding:16px;
   }
   .status-bar {
     flex-direction: column;
@@ -316,9 +314,6 @@ header{
   #options button:first-child {
   margin-top: 0;
 }
-#options button {
-  padding:16px;
-}
 .correct::after { 
   right: 10px; 
 }
@@ -330,13 +325,11 @@ header{
 @media (max-width: 1100px) {
   #quiz-screen{
   padding: 16px 36px;
+  padding-top: 8px;
 }
 .banner.small {
     width: 40%;
   }
-  #quiz-screen{
-   padding-top: 8px;
-}
 }
 
 
