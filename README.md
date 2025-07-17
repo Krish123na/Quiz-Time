@@ -31,6 +31,9 @@ A modern, responsive quiz web app built with HTML, CSS, and JavaScript to help y
 
 ---
 
+## 📸 Preview
+
+
 ![screenshot](/assets/images/Home-page.png)
 ![screenshot](/assets/images/0-5sec-page.png)
 ![screenshot](/assets/images/result-page.png)
